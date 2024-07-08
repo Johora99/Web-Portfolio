@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* common code start */
+.btn{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* common code end */
+
+/* nav section start */
+header{
+    background-color: #FFF8F3;
+     background-image: url("../images/developer.png") , url("../images/header_bg.png");
+     background-repeat: no-repeat;
+     background-position: left , right bottom;
+     
+    /* width: 100%; */
+}
+header nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+     width: 80%;
+     margin: 0 auto;
+     padding-top: 50px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+header h1{
+    font-weight: 800;
+    font-size: 45px;
+}
+header h1 span{
+    color: #FD6E0A;
+}
+header nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+
+/* nav section end */
+
+/* banner section start */
+header .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 0 190px;
+   
+}
+header .banner .greetings-section{
+    width: 585px;
+  
+}
+header .banner .greetings-section h3{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+header .banner .greetings-section h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+   
+}
+header .banner .greetings-section p{
+    color: #757575;
+    font-size: 18px;
+    margin: 20px auto 30px;
+}
+header .banner .greetings-section .btn-primary{
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 30px;
+}
+
+
+
+/* banner section end */
